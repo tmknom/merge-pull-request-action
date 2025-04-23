@@ -1,4 +1,4 @@
-name: Merge PR
+name: Merge Pull Request
 description: |
   This action merges a specified pull request.
   If [auto-merge][auto-merge] is enabled for the repository,
@@ -8,8 +8,8 @@ description: |
 
   ```yaml
     steps:
-      - name: Merge PR
-        uses: tmknom/merge-pr-action@v0
+      - name: Merge Pull Request
+        uses: tmknom/merge-pull-request-action@v0
         with:
           pull-request: 10
   ```

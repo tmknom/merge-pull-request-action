@@ -1,4 +1,4 @@
-# merge-pr-action
+# merge-pull-request-action
 
 Merge a pull request.
 
@@ -14,8 +14,8 @@ the pull request will be merged automatically once all required reviews are appr
 
 ```yaml
   steps:
-    - name: Merge PR
-      uses: tmknom/merge-pr-action@v0
+    - name: Merge Pull Request
+      uses: tmknom/merge-pull-request-action@v0
       with:
         pull-request: 10
 ```
@@ -72,4 +72,4 @@ If branch protection rules require approval, you must ensure the pull request is
 See [GitHub Releases][releases].
 
 [auto-merge]: https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-auto-merge-for-pull-requests-in-your-repository
-[releases]: https://github.com/tmknom/merge-pr-action/releases
+[releases]: https://github.com/tmknom/merge-pull-request-action/releases
